@@ -1,0 +1,140 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+        "responses": ["Hello", "Hi", "Hi there"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+      },
+      {
+        "tag": "about",
+        "patterns": ["Who are you?", "What are you?", "Who you are?"],
+        "responses": ["I'm Joana, your bot assistant", "I'm Joana, an Artificial Intelligent bot"]
+      },
+      {
+        "tag": "name",
+        "patterns": ["what is your name", "what should I call you", "whats your name?"],
+        "responses": ["You can call me Joana.", "I'm Joana!", "Just call me Joana"]
+      },
+      {
+        "tag": "help",
+        "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need support", "I need help", "support me please"],
+        "responses": ["Tell me how can I assist you", "Tell me your problem to assist you", "Yes, sure, how can I support you"]
+      },
+      {
+        "tag": "createaccount",
+        "patterns": ["I need to create a new account", "how to open a new account", "I want to create an account", "can you create an account for me", "how to open a new account"],
+        "responses": ["You can just easily create a new account from our website", "Just go to our website and follow the guidelines to create a new account"]
+      },
+      {
+        "tag": "complaint",
+        "patterns": ["I have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
+        "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+      },
+      {
+        "tag": "hours",
+        "patterns": ["What are your hours?", "When are you open?", "What are your opening times?"],
+        "responses": ["We are open from 9 AM to 5 PM, Monday to Friday"]
+      },
+      {
+        "tag": "location",
+        "patterns": ["Where are you located?", "What is your address?", "Where can I find you?"],
+        "responses": ["We are located at 123 Main Street, Anytown, USA"]
+      },
+      {
+        "tag": "services",
+        "patterns": ["What services do you offer?", "Tell me about your services", "What can you do for me?"],
+        "responses": ["We offer a variety of services including web development, graphic design, and digital marketing"]
+      },
+      {
+        "tag": "pricing",
+        "patterns": ["What are your prices?", "How much do you charge?", "What is the cost of your services?"],
+        "responses": ["Our pricing varies depending on the service. Please visit our website for detailed pricing information"]
+      },
+      {
+        "tag": "contact",
+        "patterns": ["How can I contact you?", "What is your contact information?", "How do I get in touch with you?"],
+        "responses": ["You can contact us via email at contact@ourcompany.com or call us at (123) 456-7890"]
+      },
+      {
+        "tag": "refund",
+        "patterns": ["How do I get a refund?", "I'd like a refund", "Can I get my money back?"],
+        "responses": ["Please visit our refund policy page or contact our support team for assistance"]
+      },
+      {
+        "tag": "payment",
+        "patterns": ["What payment methods do you accept?", "How can I pay?", "Do you take credit cards?"],
+        "responses": ["We accept credit cards, debit cards, and PayPal"]
+      },
+      {
+        "tag": "delivery",
+        "patterns": ["When will my order arrive?", "What are your delivery options?", "How long does shipping take?"],
+        "responses": ["Delivery times depend on your location. Please check our shipping policy for more details"]
+      },
+      {
+        "tag": "discount",
+        "patterns": ["Do you have any discounts?", "Are there any promotions?", "How can I get a discount?"],
+        "responses": ["Check our website for current promotions and discount codes"]
+      },
+      {
+        "tag": "feedback",
+        "patterns": ["How can I leave feedback?", "I want to give feedback", "Where can I submit a review?"],
+        "responses": ["You can leave feedback on our website or contact our support team directly"]
+      },
+      {
+        "tag": "support",
+        "patterns": ["I need technical support", "I'm having issues", "Can you help me with a problem?"],
+        "responses": ["Please describe your issue and our support team will assist you"]
+      },
+      {
+        "tag": "privacy",
+        "patterns": ["What is your privacy policy?", "How do you handle my data?", "Is my information safe?"],
+        "responses": ["Your privacy is important to us. Please review our privacy policy on our website"]
+      },
+      {
+        "tag": "terms",
+        "patterns": ["What are your terms and conditions?", "Where can I find your terms?", "Tell me about your terms of service"],
+        "responses": ["You can find our terms and conditions on our website"]
+      },
+      {
+        "tag": "security",
+        "patterns": ["Is your website secure?", "How do you protect my data?", "What security measures do you have?"],
+        "responses": ["Our website uses industry-standard security measures to protect your data"]
+      },
+      {
+        "tag": "career",
+        "patterns": ["Are you hiring?", "What job openings do you have?", "How can I apply for a job?"],
+        "responses": ["Please visit our careers page to see current job openings and apply"]
+      },
+      {
+        "tag": "events",
+        "patterns": ["What events are coming up?", "Do you have any upcoming events?", "Can I attend your events?"],
+        "responses": ["Check our events page for upcoming events and registration details"]
+      },
+      {
+        "tag": "newsletter",
+        "patterns": ["How can I subscribe to your newsletter?", "I want to get your updates", "Sign me up for the newsletter"],
+        "responses": ["You can subscribe to our newsletter on our website"]
+      },
+      {
+        "tag": "partnership",
+        "patterns": ["Do you offer partnerships?", "Can we collaborate?", "I'm interested in a partnership"],
+        "responses": ["Please visit our partnership page or contact us directly to discuss potential collaborations"]
+      },
+      {
+        "tag": "socialmedia",
+        "patterns": ["What are your social media handles?", "Where can I follow you?", "Are you on social media?"],
+        "responses": ["You can follow us on Facebook, Twitter, and Instagram. Check our website for the links"]
+      }
+    ]
+  }
+  
